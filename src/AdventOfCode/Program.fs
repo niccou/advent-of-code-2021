@@ -1,4 +1,8 @@
-﻿
+﻿namespace AdventOfCode
 
-// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+open System.IO
+
+
+module program =
+    let depths = File.ReadAllLines("inputs/day1.txt")
+    printfn "%A" (depths |> Depths.numberOfTimesTheSumOfMeasurementsInSlidingWindow 3)
