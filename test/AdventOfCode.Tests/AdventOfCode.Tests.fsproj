@@ -5,6 +5,8 @@
     <GenerateProgramFile>true</GenerateProgramFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="SevenSegmentSearchTests.fs" />
+    <Compile Include="BinaryDiagnosticsTests.fs" />
     <Compile Include="PilotTests.fs" />
     <Compile Include="DepthsTests.fs" />
   </ItemGroup>

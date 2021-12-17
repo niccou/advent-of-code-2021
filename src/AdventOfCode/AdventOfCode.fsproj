@@ -4,8 +4,28 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Day10\input.txt" />
+    <Content Include="Day9\Input.txt" />
+    <None Include="Day10\Part1.fsx" />
+    <None Include="Day9\Part2.fsx" />
+    <None Include="Day9\Part1.fsx" />
+    <Compile Include="SevenSegmentSearch.fs" />
+    <Compile Include="BinaryDiagnostics.fs" />
     <Compile Include="Pilot.fs" />
     <Compile Include="Depths.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="inputs\day5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\day8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\Day7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="inputs\day1.txt" />
+    <Content Include="inputs\day2.txt" />
   </ItemGroup>
 </Project>
